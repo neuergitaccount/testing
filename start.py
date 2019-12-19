@@ -3,10 +3,10 @@ from Password import Password
 import hashlib
 
 #Example to trigger a sonar vulnerability
-#import socket
-#ip = '127.0.0.1'
-#sock = socket.socket()
-#sock.bind((ip, 9090))
+import socket
+ip = '127.0.0.1'
+sock = socket.socket()
+sock.bind((ip, 9090))
 
 #typical bandit findings
 #>>> bandit -r <folder>
